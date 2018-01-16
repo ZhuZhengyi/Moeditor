@@ -30,6 +30,7 @@ module.exports = {
     'focus-mode': false,
     'editor-font': 'default',
     'editor-theme': 'base16-light',
+    'editor-keymap': 'vim',
     'editor-font-size': 14,
     'editor-line-height': 2,
     'math': true,

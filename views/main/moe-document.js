@@ -37,6 +37,7 @@ $(() => {
         mode: moeApp.config.get('math') ? 'gfm_math' : 'gfm',
         matchBrackets: true,
         theme: moeApp.config.get('editor-theme'),
+        keyMap: moeApp.config.get('editor-keymap'),
         lineWrapping: true,
         extraKeys: {
             Enter: 'newlineAndIndentContinueMarkdownList',
